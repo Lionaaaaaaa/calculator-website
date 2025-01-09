@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif ;
+    display : flex;
+    flex-direction: column;
+    justify-content : center ;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color : grey;
+}
+
+.kerangka-judul{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding :20px;
+    background-color: #007bff;
+    border-radius: 8px;
+}
+
+.judul {
+    color :white;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+    background : #fff;
+    width: 300px;
+    padding : 20px;
+    border-radius : 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#result {
+    width: 100%;
+    fonst-size : 1.5em;
+    text-align : right;
+    margin-bottom: 10px;
+    padding : 10px;
+    border : 3px solid #007bff;
+    border-radius : 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 23%;
+    padding : 10px;
+    margin : 5px 1%;
+    font-size : 1.2em;
+    border : none ;
+    background: #007bff;
+    color : #fff;
+    border-radius : 4px;
+    cursor : pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background : #0056b3;
+}
